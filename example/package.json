@@ -1,5 +1,5 @@
 {
-  "name": "Doodle",
+  "name": "doodle",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,11 +7,13 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "pod:install": "cd ios && pod install"
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.2"
+    "react-native": "0.70.2",
+    "react-native-svg": "^13.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
