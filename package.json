@@ -1,0 +1,10 @@
+{
+  "name": "react-native-doodle",
+  "version": "0.0.0",
+  "description": "A simple hand drawn theme for React Native",
+  "main": "dist/index.js",
+  "repository": "git@github.com:leegeunhyeok/react-native-doodle.git",
+  "author": "leegeunhyeok <dev.ghlee@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
