@@ -6,5 +6,15 @@
   "repository": "git@github.com:leegeunhyeok/react-native-doodle.git",
   "author": "leegeunhyeok <dev.ghlee@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-svg-transformer": "*"
+  },
+  "devDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
 }
