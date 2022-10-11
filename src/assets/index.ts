@@ -1,5 +1,3 @@
-export { default as Border } from './border.svg';
-export { default as Button } from './button.svg';
-export { default as Caret } from './caret.svg';
-export { default as Checkbox } from './checkbox.svg';
-export { default as Hr } from './hr.svg';
+export { default as Rect1 } from './rect-1.svg';
+export { default as Rect2 } from './rect-2.svg';
+export { default as Circle } from './circle.svg';
