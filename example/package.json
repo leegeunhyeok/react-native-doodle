@@ -13,8 +13,8 @@
   "dependencies": {
     "react": "18.1.0",
     "react-native": "0.70.2",
-    "react-native-doodle": "../",
-    "react-native-svg": "^13.2.0"
+    "react-native-doodle": "file:../",
+    "react-native-svg": "^13.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
