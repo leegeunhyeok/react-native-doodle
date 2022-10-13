@@ -16,7 +16,9 @@
   "devDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-svg": "*",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "react-native-svg": "*"
   }
 }

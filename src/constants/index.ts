@@ -11,3 +11,6 @@ export const DEFAULT_SVG_PROPS = {
   height: '100%',
   preserveAspectRatio: 'none',
 } as const;
+
+export const DEFAULT_STROKE_COLOR = '#333';
+export const DEFAULT_STROKE_WIDTH = 4;
