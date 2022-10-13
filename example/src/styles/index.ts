@@ -20,6 +20,13 @@ export const styles = StyleSheet.create({
   section: {
     marginBottom: 24,
   },
+  row: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
   underline: {
     textDecorationLine: 'underline',
   },
@@ -37,8 +44,24 @@ export const styles = StyleSheet.create({
     fontSize: 28,
     marginVertical: 16,
   },
+  h3: {
+    fontSize: 20,
+    marginVertical: 8,
+  },
   p: {
     fontSize: 16,
     marginVertical: 8,
+  },
+  inputStyle: {
+    width: '100%',
+    padding: 10,
+  },
+  textareaStyle: {
+    padding: 10,
+    width: '100%',
+    height: 100,
+  },
+  buttonStyle: {
+    padding: 10,
   },
 });
