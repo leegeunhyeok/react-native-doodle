@@ -6,7 +6,6 @@
   "repository": "git@github.com:leegeunhyeok/react-native-doodle.git",
   "author": "leegeunhyeok <dev.ghlee@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "build": "tsc"
   },
