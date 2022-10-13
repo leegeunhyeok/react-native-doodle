@@ -7,13 +7,17 @@
   "author": "leegeunhyeok <dev.ghlee@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-svg": "*",
-    "react-native-svg-transformer": "*"
+    "react-native-svg": "*"
   },
   "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
     "react": "*",
     "react-native": "*",
     "typescript": "^4.8.4"

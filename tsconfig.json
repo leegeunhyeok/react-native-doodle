@@ -1,14 +1,32 @@
 {
   "compilerOptions": {
-    "rootDir": "./",
+    "target": "esnext",
     "module": "es6",
-    "target": "es5",
+    "lib": ["es6"],
+    "allowJs": true,
+    "jsx": "react-native",
+    "noImplicitAny": false,
+    "incremental": true,
+    "isolatedModules": true,
+    "strict": true,
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "allowJs": false,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "noEmitHelpers": true,
+    "alwaysStrict": true,
+    "strictFunctionTypes": true,
     "resolveJsonModule": true,
+    "importHelpers": false,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
     "strictNullChecks": true,
-    "jsx": "react"
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "declaration": true,
+    "sourceMap": true
   },
   "exclude": ["node_modules", "example"]
 }
