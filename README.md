@@ -26,7 +26,7 @@ yarn add react-native-doodle
 ## Usage
 
 ```jsx
-import { SafeAreaView, Text } from 'react-native-doodle';
+import { SafeAreaView, Text } from 'react-native';
 import { View, Input, Button } from 'react-native-doodle';
 
 const App = () => {
@@ -48,8 +48,8 @@ const App = () => {
 export default App;
 ```
 
-- `View`: same as [View](https://reactnative.dev/docs/view).
-- `Input`: same as [TextInput](https://reactnative.dev/docs/textinput).
+- `View`: same as [View](https://reactnative.dev/docs/view)
+- `Input`: same as [TextInput](https://reactnative.dev/docs/textinput)
 - `Button`: same as [Pressable](https://reactnative.dev/docs/pressable)
 
 ## License
