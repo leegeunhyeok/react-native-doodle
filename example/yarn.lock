@@ -5897,8 +5897,10 @@ react-native-codegen@^0.70.5:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
-"react-native-doodle@file:..":
-  version "0.0.0"
+react-native-doodle@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-doodle/-/react-native-doodle-0.1.0.tgz#3e0c34ffdf63538bcc5bc2f9fa874657b0f2fdf2"
+  integrity sha512-tWFERm95Ge/t06J+oKwW7iCxiPig1A9jqAA0a570qAVFBrXayx3djkmzy9wvmF4NTZdKtzHeR2/nw02ZY7U1QQ==
   dependencies:
     react-native-svg "*"
 
