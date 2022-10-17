@@ -23,6 +23,10 @@ npm install react-native-doodle
 yarn add react-native-doodle
 ```
 
+`react-native-doodle` is dependent on [react-native-svg](https://github.com/software-mansion/react-native-svg).
+
+You need to setup `react-native-svg` environment.
+
 ## Usage
 
 ```jsx
